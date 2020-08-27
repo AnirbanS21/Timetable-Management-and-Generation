@@ -1,0 +1,14 @@
+SMAP
+delteach_jsp.java
+JSP
+*S JSP
+*F
++ 0 delteach.jsp
+delteach.jsp
+*L
+1,6:46
+6,10:52
+15,4:62
+19,3:67
+21,36:70
+*E

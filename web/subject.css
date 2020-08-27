@@ -1,0 +1,121 @@
+body{
+  font-size: 1.4rem;
+  background: #34495e;
+  font-family: 'Roboto', sans-serif;
+}
+
+th{
+    font-size: 1.4rem;
+    padding: 0;
+    width: 200px; 
+    font-family: 'Alegreya Sans SC';
+
+}
+tr{
+    display: table-row;
+    color:#FFFFFF;
+
+}
+tr:nth-child(even){
+    display: table-row;
+}
+.textbox{
+    length:200px;
+}
+.box{
+    width: 1620px;
+    height:900px;
+    font-size: 1.4rem;
+    padding: 40px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.background{
+    background-image: url("books-on-wooden-desk-small-1.jpg"); /* The image used */
+  
+  height: 1100px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.submit{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: #fff;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.submit:hover{
+  background: #2ecc71;
+  cursor: pointer;
+}
+.button{
+    line-height: 1;
+    display: inline-block;
+    font-size: 1.6rem;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #FFF;
+    padding: 8px;
+    background-color: #87ceeb;
+    transition: 0.25s;
+  }
+.button:hover{
+    background: #007FFF;
+    cursor: pointer;
+  }
+  h1{
+              font-family: 'Alegreya Sans SC';
+
+  }
+input[type=text],[type=number], select{
+    width:100%;
+    padding:2px 20px;
+    margin:8px ;
+    display: inline-block;
+    border: 1px solid #cc;
+    border-radius:4px;
+    box-sizing:border-box;
+}
+.input-icons i { 
+    
+}
+
+.input-icons i:hover{ 
+    
+    cursor: pointer;
+    color:lightcoral;
+} 
+          
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 1px; 
+} 
+          
+.icon { 
+    padding: 10px; 
+    color: red;
+    text-align: center; 
+} 
+          
+.input-field { 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+.input-field:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+.background{
+    background-image: url("slidenew001.jpg"); /* The image used */
+  
+  height: 820px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.box{
+    
+  width: 530px;
+  height: 700px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: auto;
+  border-radius: 5px;
+  background: rgba(245,245,245,0.6);
+  font-size: 18px;
+  text-align: center;
+}
+.button,.button2,.button3{
+    width: 40px;
+    background: rgba(0,200,0,0.8);
+    color: white;
+    padding:14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+    transition-duration: 0.4s;
+    line-height: 70px;
+    font-family: helvetica;
+    text-decoration: none;
+}
+.button2{
+    background: rgba(70,70,255,0.8);
+}
+.button3{
+    background: rgba(255,70,70,0.8);
+}
+.button:hover{
+    background: rgba(0,170,0,1);
+    
+}
+.button2:hover{
+    background: rgba(40,40,255,1);
+}
+.button3:hover{
+    background: rgba(255,40,40,1);
+}
+h2{
+    font-family: 'Alegreya Sans SC';
+    color: maroon;
+}
